@@ -1,0 +1,26 @@
+Iteration: It's the process of traversing through each every value, extraction after the another is called iteration.
+
+Iterator: The operators which do the process of iteration is known as iterator.
+In the looping statements, like for loop the iterators principle works upon it.
+
+Iterators works upon two sets of operators such as:
+1]Initialization.
+2]Traversing.
+
+Classification:
+1]Built-in iterators.
+2]Custom/user-defined iterators.
+
+1]built-in iterators:
+A] iter(Initialization):
+Iter creates and returns iterable objeccts.
+syntax: variable = iter(CDT)
+
+B] next(Traversing):
+Next fetches one value from iterable object.
+syntax: next(iterable objects)
+
+2]Custom/user-defined iterators:
+A] We have to create a class with __iter__() and __next__() methods to create a custom iterator/User Defined.
+B] __Iter__() is used for Initializing the Temporary variable with Starting Value and used for returning the Iterable Object2.
+C] __next__() is used for returning the next item in the sequence. On reaching the end, and it's subsequent calls, it must raise stopiteration exception.
